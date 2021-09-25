@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-specifier-resolution=node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.978.0",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "dynamoose": "^2.8.1",
+    "express": "^4.17.1",
+    "jsend": "^1.1.0",
+    "moment": "^2.29.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.2"
+  }
+}
